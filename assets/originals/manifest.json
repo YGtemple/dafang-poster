@@ -1,0 +1,105 @@
+{
+  "originals": [
+    {
+      "file": "highway.jpg",
+      "source_temp_hash_name": "0696654fa8e359a37249938c6ffc5818.jpg",
+      "size_bytes": 958932,
+      "sha256": "5306664d013baa5ef840eb65c4daf18bf3db5445f8983d10ee584f30d7131705",
+      "width": 1080,
+      "height": 2170,
+      "mode": "RGB"
+    },
+    {
+      "file": "factory.jpg",
+      "source_temp_hash_name": "feef051d01db5b05bd3d4a048f7bdcf7.jpg",
+      "size_bytes": 923043,
+      "sha256": "ecfc9d1b173e595dce93e7ac36a206d02f0df91c13cc5ff050806ac6e773b544",
+      "width": 1080,
+      "height": 2170,
+      "mode": "RGB"
+    },
+    {
+      "file": "sunset.jpg",
+      "source_temp_hash_name": "7cc07efdce64a9d610c8a26e26202cc8.jpg",
+      "size_bytes": 747641,
+      "sha256": "a7cfb1ae82a83fda4d9c4b65af3c869619c34c544c10c4250884359d93145416",
+      "width": 1080,
+      "height": 2170,
+      "mode": "RGB"
+    },
+    {
+      "file": "bottom-bar.png",
+      "source_temp_hash_name": "c29edc53d7e7be3bafa5d2cc1a5b3952.png",
+      "size_bytes": 98038,
+      "sha256": "e847b3ce2d198fb70957b76ef0dd7387f7ef8277e6a37cfc6880f51a12f40511",
+      "width": 967,
+      "height": 217,
+      "mode": "RGBA"
+    },
+    {
+      "file": "logo-black.jpg",
+      "source_temp_hash_name": "0917df22bbe46004eb491344addf1c47.jpg",
+      "size_bytes": 213868,
+      "sha256": "5c3056fe4f963e1c7c0b88c64e62fd2ff6398d36021798aa3d4b049709586ecb",
+      "width": 5123,
+      "height": 948,
+      "mode": "RGB"
+    },
+    {
+      "file": "logo-yellow.png",
+      "source_temp_hash_name": "8021ce04c860a965b538ae7fff052fa7.png",
+      "size_bytes": 190980,
+      "sha256": "58d079dad49b1d2016ea45ff50e2632d2ae3d0c634c20e87439a18d809ad1106",
+      "width": 5123,
+      "height": 948,
+      "mode": "RGBA"
+    }
+  ],
+  "clean_crops": [
+    {
+      "file": "highway.jpg",
+      "source_original": "highway.jpg",
+      "crop_box_ltrb": [
+        0,
+        1410,
+        1080,
+        1770
+      ],
+      "width": 1080,
+      "height": 360,
+      "size_bytes": 203988,
+      "sha256": "3dd58d6146c1e49ace87ff437d1f8f7474dad4f4a22f40b58c8e46fd0fa4818b",
+      "note": "纯像素裁切，未放大/未修复/未生成；裁切区域避开标题、左上角logo、标注框/引线/锚点、底部信息条"
+    },
+    {
+      "file": "factory.jpg",
+      "source_original": "factory.jpg",
+      "crop_box_ltrb": [
+        0,
+        1150,
+        1080,
+        1780
+      ],
+      "width": 1080,
+      "height": 630,
+      "size_bytes": 455630,
+      "sha256": "8d59589f1d2dd681a321ec100840a3275d7bf5c16abf7c8c108d88d31ac99b83",
+      "note": "纯像素裁切，未放大/未修复/未生成；裁切区域避开标题、左上角logo、标注框/引线/锚点、底部信息条"
+    },
+    {
+      "file": "sunset.jpg",
+      "source_original": "sunset.jpg",
+      "crop_box_ltrb": [
+        560,
+        1000,
+        1080,
+        1780
+      ],
+      "width": 520,
+      "height": 780,
+      "size_bytes": 182727,
+      "sha256": "ec90e1e6caa603bb74a577272d1ba5568d06acf3379cc56feddc3a54f59e2198",
+      "note": "纯像素裁切，未放大/未修复/未生成；裁切区域避开标题、左上角logo、标注框/引线/锚点、底部信息条"
+    }
+  ]
+}
