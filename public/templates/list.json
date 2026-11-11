@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "cover": "/assets/originals/highway.jpg",
+    "title": "高速航拍·白色行书",
+    "width": 1080,
+    "height": 1920,
+    "state": 1
+  },
+  {
+    "id": 2,
+    "cover": "/assets/originals/factory.jpg",
+    "title": "厂房车间·黄色超粗黑体",
+    "width": 1080,
+    "height": 1920,
+    "state": 1
+  },
+  {
+    "id": 3,
+    "cover": "/assets/originals/sunset.jpg",
+    "title": "港机夕阳·黄色行楷",
+    "width": 1080,
+    "height": 1920,
+    "state": 1
+  }
+]

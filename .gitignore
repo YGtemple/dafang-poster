@@ -1,0 +1,41 @@
+.DS_Store
+node_modules
+/dist
+config.json
+/.vite
+yarn.lock
+
+screenshot/node_modules/
+screenshot/dist/
+screenshot/_apidoc/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local QA evidence and generated exports
+/qa/
+/exports/
+/service/static/user/
+
+# Rejected historical backgrounds; not referenced by current templates
+/public/assets/backgrounds/bg_highway.jpg
+/public/assets/backgrounds/bg_factory.jpg
+/public/assets/backgrounds/bg_sunset.jpg
+
+# Local source manifest contains machine-specific paths
+/public/assets/originals/manifest.json
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

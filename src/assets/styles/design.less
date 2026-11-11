@@ -1,0 +1,120 @@
+@import './color.less';
+// design index page
+@color4: #50555b;
+@color5: #808080;
+@width0: 1180px;
+@width1: 120px;
+@width2: 100%;
+@height2: 54px;
+
+@canvasBG: #1a1a1a;
+@pageBG: #1a1a1a;
+@canvasDeepBG: #1a1a1a;
+
+.page-design-bg-color {
+  background-color: @canvasDeepBG;
+}
+.page-bg-color {
+  background-color: @pageBG;
+}
+
+#page-design-index {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 500px;
+  min-width: @width0;
+  position: absolute;
+  width: @width2;
+  background-color: @canvasBG;
+  .top-nav {
+    height: @height2;
+    min-width: @width0;
+    position: relative;
+    width: @width2;
+    .top-nav-wrap {
+      border-bottom: 1px solid #3a3a3a;
+      align-items: center;
+      background-color: #1a1a1a;
+      display: flex;
+      height: @height2;
+      min-width: @width0;
+      position: fixed;
+      width: @width2;
+      .brand-logo {
+        height: 30px;
+        width: auto;
+        margin-left: 12px;
+        margin-right: 10px;
+        display: block;
+      }
+      .top-left {
+        display: flex;
+        align-items: center;
+        color: @text-light;
+        .name {
+          margin: 0 1rem;
+          // font-weight: bold;
+          cursor: pointer;
+          letter-spacing: 2px;
+          color: #F5B800;
+          font-size: 20px;
+          font-family: 'ZCOOLHei', PingFangSC-Semibold, PingFang SC, sans-serif;
+        }
+        .operation {
+          display: flex;
+          &-item {
+            padding: 1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            .icon {
+              // font-size: 18px;
+              color: @text-light;
+            }
+            .iconfont {
+              font-size: 14px;
+            }
+            .text {
+              font-weight: 600;
+              margin-left: .4rem;
+              color: @text-light;
+            }
+          }
+          .disable {
+            cursor: not-allowed;
+            color: #666666;
+          }
+        }
+      }
+      .primary-btn {
+        font-weight: 600;
+        transform: scale(0.95);
+        margin-left: 10px;
+      }
+    }
+  }
+  .page-design-index-wrap {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    width: @width2;
+    .page-design-wrap {
+      flex: 1;
+    }
+  }
+  // .page-design-index-wrap ::-webkit-scrollbar {
+  //   display: none; /* Chrome Safari */
+  // }
+  .shelter,
+  .shelter-bg {
+    position: absolute;
+    pointer-events: none;
+  }
+  .shelter {
+    box-shadow: 0 0 0 5000px rgba(26, 26, 26, 0.99);
+    z-index: 8;
+  }
+}

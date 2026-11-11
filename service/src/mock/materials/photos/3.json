@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1000,
+    "thumb": "/assets/backgrounds/bg_factory.jpg",
+    "url": "/assets/backgrounds/bg_factory.jpg",
+    "width": 1080,
+    "height": 2170,
+    "description": "厂房车间背景",
+    "color": "#EFEFEF"
+  },
+  {
+    "id": 1001,
+    "thumb": "/assets/backgrounds/bg_highway.jpg",
+    "url": "/assets/backgrounds/bg_highway.jpg",
+    "width": 1080,
+    "height": 2170,
+    "description": "高速航拍背景",
+    "color": "#EFEFEF"
+  },
+  {
+    "id": 1002,
+    "thumb": "/assets/backgrounds/bg_sunset.jpg",
+    "url": "/assets/backgrounds/bg_sunset.jpg",
+    "width": 1080,
+    "height": 2170,
+    "description": "港机夕阳背景",
+    "color": "#EFEFEF"
+  }
+]

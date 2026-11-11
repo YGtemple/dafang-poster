@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "爱心图片容器",
+    "width": 1000,
+    "height": 1000,
+    "type": "mask",
+    "model": "{}",
+    "thumb": "/assets/backgrounds/bg_highway.jpg",
+    "url": "/assets/backgrounds/bg_highway.jpg",
+    "created_time": "2023-08-20T21:46:49.000Z",
+    "updated_time": "2023-09-15T11:42:14.000Z",
+    "state": 1
+  },
+  {
+    "id": 2,
+    "title": "扇形图片容器",
+    "width": 1000,
+    "height": 1000,
+    "type": "mask",
+    "model": "{}",
+    "thumb": "/assets/backgrounds/bg_factory.jpg",
+    "url": "/assets/backgrounds/bg_factory.jpg",
+    "created_time": "2023-08-20T21:46:52.000Z",
+    "updated_time": "2023-09-15T11:42:14.000Z",
+    "state": 1
+  },
+  {
+    "id": 3,
+    "title": "星星图片容器",
+    "width": 1000,
+    "height": 1000,
+    "type": "mask",
+    "model": "{}",
+    "thumb": "/assets/backgrounds/bg_sunset.jpg",
+    "url": "/assets/backgrounds/bg_sunset.jpg",
+    "created_time": "2023-08-20T21:47:03.000Z",
+    "updated_time": "2023-09-15T11:42:14.000Z",
+    "state": 1
+  }
+]
